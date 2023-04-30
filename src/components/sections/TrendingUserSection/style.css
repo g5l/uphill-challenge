@@ -1,0 +1,8 @@
+.user-section-items {
+  display: flex;
+  gap: 30px
+}
+
+.user-section-item {
+  width: calc(33.33% - 30px)
+}

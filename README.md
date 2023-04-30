@@ -1,16 +1,15 @@
 # uphill-challenge
 
-## Available Scripts
+on different criteria, such as the number of followers, stars
+
+## Getting Started
 
 In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine.
+2. Install the dependencies using npm install.
+3. Create a .env file in the root directory and add your GitHub API token as REACT_APP_GITHUB_TOKEN=<your_token_here>.
+4. Run the application using npm start.
+5. Open the application in your browser at http://localhost:3000.
 
 ### `npm test`
 

@@ -18,7 +18,7 @@ class Api {
         method: method,
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer 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",
+          "Authorization": `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`,
           "X-GitHub-Api-Version": "2022-11-28",
           ...config?.headers
         },

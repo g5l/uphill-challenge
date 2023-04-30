@@ -7,7 +7,7 @@ This is a web application that displays a list of the top GitHub users and repos
 In the project directory, you can run:
 1. Clone the repository to your local machine.
 2. Install the dependencies using npm install.
-3. Create a .env file in the root directory and add your GitHub API token as REACT_APP_GITHUB_TOKEN=<your_token_here>.
+3. Rename the `.env.sample` file to `.env.local` in the root directory and add your GitHub API token as REACT_APP_GITHUB_TOKEN=<your_token_here>.
 4. Run the application using `npm start`.
 5. Open the application in your browser at http://localhost:3000.
 

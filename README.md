@@ -61,3 +61,29 @@ Your app is ready to be deployed!
 - **util**
 
   Utilities to be reused
+
+## Todo list
+
+#### Missing features
+- [ ] Add model layer for User and Repository
+
+      User {
+        username: String
+        avatar: String
+        email: String
+        url: String
+        followers: Number
+      }
+
+      Repository {
+        name: String
+        description: String
+        url: String
+        stars: Number
+      }
+- [ ] Search functionality
+- [ ] Loading state for pages
+- [ ] Not found page
+
+#### Bugfixes
+- [ ] Fix two requests per fetch

@@ -4,10 +4,10 @@ import Logo from "assets/logo";
 
 function Header() {
   return (
-    <div className="header">
+    <div className="header" data-testid="Header">
       <div className="header-content">
         <Logo/>
-        <div className="search">
+        <div className="search" data-testid="Search">
           <i className="fa-solid fa-magnifying-glass search-icon"></i>
           <input type="text" placeholder="search" className="search-input"/>
         </div>

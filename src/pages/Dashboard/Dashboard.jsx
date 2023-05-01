@@ -24,7 +24,7 @@ function Dashboard() {
   }, []);
 
   return (
-    <div className="dashboard-container">
+    <div className="dashboard-container" data-testid="Dashboard">
       {data.topUsers && <TrendingUserSection value={data.topUsers}/>}
       {data.activeUser && <ActiveUserSection value={data.activeUser}/>}
       {data.topRepositories && <TopRepositoriesSection value={data.topRepositories}/>}

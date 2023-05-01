@@ -13,7 +13,7 @@ class UserApi {
       ...query
     };
     const users = await this.api.get("search/users", queryDefault);
-    return this.findAllData(users);
+    return this.findAllData(users.items);
   }
 
   async findAllByFollowers() {
@@ -35,8 +35,9 @@ class UserApi {
   }
 
   findAllData(users) {
+    if (!users) return [];
     let response = [];
-    users.items.map(async u => {
+    users.map(async u => {
       const data = await this.api.get(`users/${u.login}`);
       response.push(data);
     });
